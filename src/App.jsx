@@ -1,3 +1,4 @@
+import profile from "./assets/profile.png";
 function App() {
   return (
     <div className="container py-5">
@@ -37,9 +38,10 @@ function App() {
         <div className="col-md-6 text-center">
 
           <img
-            src="https://via.placeholder.com/350"
-            className="img-fluid rounded-circle"
-            alt="Profile"
+            src={profile}
+            className="img-fluid rounded-circle shadow-lg"
+            alt="Rahul Kumar"
+            width="350"
           />
 
         </div>
